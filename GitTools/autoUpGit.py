@@ -7,7 +7,7 @@ if __name__ == '__main__':
 	#os.chdir(path)
 	#StartFolder = os.path.dirname(os.path.realpath(__file__))
 	# Directorio base del repositorio
-	StartFolder = '/Users/mike/Desktop/repositories/'
+	StartFolder = '/Users/mike/Desktop/repos/'
 	print(StartFolder)
 	ListOfFolders = next(os.walk('.'))[1]
 	for folder in ListOfFolders:
